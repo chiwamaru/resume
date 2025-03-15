@@ -2,33 +2,93 @@
 
 ## 基本情報
 
-| key      | value                      |
-| -------- | -------------------------- |
-| 氏名     | 堀内晋也 (Horiuchi Shinya) |
-| 生年月日 | 1976年7月30日              |
-| 居住地   | 埼玉県                     |
-| 最終学歴 | 工学院大学大学院卒         |
-| Twitter  | https://x.com/shinya_h     |
-| Zenn     | https://zenn.dev/chiwamaru |
-
+| Key                   | Value  |
+| --------------------- | ------ |
+| **氏名**        | 堀内晋也 (Horiuchi Shinya)  |
+| **生年月日**    | 1976年7月30日 |
+| **note**        | https://note.com/chiwamaru      |
+| **Zenn**        | https://zenn.dev/chiwamaru      |
+| **GitHub**      | https://github.com/chiwamaru    |
 ---
 
 ## 保有スキル
 
----
+### 技術スタック
 
-## 技術スタック
+#### 言語
 
-### 言語
+- Python
+- TypeScript
+- JavaScript
+- Bash
 
-### フレームワーク・その他
+#### フレームワーク・その他
+
+- React, Next.js
+- Node.js, NestJS
+- Terraform, CloudFormation
+- Docker, Kubernetes
+- Datadog, CloudWatch, Azure Monitor, GCP Cloud Monitoring
+- OpenAI API, Azure OpenAI, Bedrock
+- Dify,
+- .bubble
+- GitHub Actions
+
+#### プロトコル
+
+- TCP/IP
+- HTTP
+
 
 ---
 
 ## 職務経歴詳細
 
-### A株式会社（2020/04〜現在）
+### ITフリーランス（2024/12〜現在）
 
-### B株式会社（2015/04〜2020/03）
+- SRE, クラウドインフラ運用・保守
+- Terraformを用いたインフラ自動化
+- AIシステム開発（Dify, OpenAI, Cohere）
 
-## 業務外活動
+### 株式会社KDDIウェブコミュニケーションズ（2023/10〜2024/11）
+
+- クラウドエンジニア、情報システム部ゼネラルマネージャー
+- AWS・Azure環境整備、基幹システム運用・開発
+- AIを活用した業務効率化の推進
+- Slack、Jiraなどの社内ツール統合管理
+
+### 株式会社Luup（2022/01〜2023/07）
+
+- IoT通信エンジニア、SREエンジニア
+- AWS/GCPを活用したIoTプラットフォーム構築・運用
+- TerraformによるIaC推進、クラウドコスト管理
+- TechBlogの立ち上げ・技術情報発信
+
+### ビッグローブ株式会社（2018/12〜2022/01）
+
+- クラウド移行コンサルタント、AWS環境構築エンジニア
+- オンプレミスからAWSへのリフト＆シフト
+- セキュリティを考慮したSaaSツール導入・運用最適化
+- 産学連携プロジェクトの推進
+
+### ソフトバンク株式会社（2001/04〜2018/10）
+
+- 携帯電話ネットワークエンジニア、商品企画
+- MVNO接続立ち上げ（技術仕様策定、接続コスト策定）
+- +メッセージの立ち上げ（他社との協業推進）
+
+---
+
+## 業務外活動 (2017～)
+
+- IoTを活用した健康管理サービスの立ち上げ支援
+- ローカル5G事業の立ち上げ支援
+- MVNO事業立ち上げ支援（技術アドバイス、エンジニア採用支援）
+- オンプレミスからAWS/Azure/GCP/さくらクラウドへの移行支援
+- SaaSツール導入・利用効率化コンサルティング
+
+---
+
+## 資格
+
+- AWS認定ソリューションアーキテクト アソシエイト
