@@ -2,13 +2,14 @@
 
 ## 基本情報
 
-| Key                   | Value  |
-| --------------------- | ------ |
-| **氏名**        | 堀内晋也 (Horiuchi Shinya)  |
-| **生年月日**    | 1976年7月30日 |
-| **note**        | https://note.com/chiwamaru      |
-| **Zenn**        | https://zenn.dev/chiwamaru      |
-| **GitHub**      | https://github.com/chiwamaru    |
+| Key      | Value                           |
+|----------|---------------------------------|
+| 氏名     | 堀内晋也 (Horiuchi Shinya)      |
+| 生年月日 | 1976年7月30日                   |
+| note     | [note](https://note.com/chiwamaru) |
+| Zenn     | [Zenn](https://zenn.dev/chiwamaru) |
+| GitHub   | [GitHub](https://github.com/chiwamaru) |
+
 ---
 
 ## 保有スキル
@@ -38,7 +39,6 @@
 
 - TCP/IP
 - HTTP
-
 
 ---
 
