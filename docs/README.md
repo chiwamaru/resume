@@ -6,9 +6,9 @@
 |----------|---------------------------------|
 | 氏名     | 堀内晋也 (Horiuchi Shinya)      |
 | 生年月日 | 1976年7月30日                   |
-| note     | [note](https://note.com/chiwamaru) |
-| Zenn     | [Zenn](https://zenn.dev/chiwamaru) |
-| GitHub   | [GitHub](https://github.com/chiwamaru) |
+| note     | [note url](https://note.com/chiwamaru) |
+| Zenn     | [Zenn url](https://zenn.dev/chiwamaru) |
+| GitHub   | [GitHub url](https://github.com/chiwamaru) |
 
 ---
 
@@ -16,35 +16,42 @@
 
 ### 技術スタック
 
+#### クラウド
+
+- AWS
+- Google Cloud
+- Azure
+
 #### 言語
 
 - Python
 - TypeScript
 - JavaScript
-- Bash
-
-#### フレームワーク・その他
-
-- React, Next.js
-- Node.js, NestJS
-- Terraform, CloudFormation
-- Docker, Kubernetes
-- Datadog, CloudWatch, Azure Monitor, GCP Cloud Monitoring
-- OpenAI API, Azure OpenAI, Bedrock
-- Dify,
-- .bubble
-- GitHub Actions
 
 #### プロトコル
 
 - TCP/IP
 - HTTP
+- MQTT
+
+#### その他
+
+- Terraform
+- Docker
+- Datadog, CloudWatch, Azure Monitor, GCP Cloud Monitoring
+- OpenAI API, Azure OpenAI, Bedrock
+- Dify
+- .bubble
+- GitHub Actions
+- SQL
 
 ---
 
 ## 職務経歴詳細
 
-### ITフリーランス（2024/12〜現在）
+現在はフリーランスとしてクラウドやIT利用企業のご支援を行っております。
+
+### IT業務ご支援（2017〜現在:副業期間含む）
 
 - SRE, クラウドインフラ運用・保守
 - Terraformを用いたインフラ自動化
@@ -75,7 +82,7 @@
 
 - 携帯電話ネットワークエンジニア、商品企画
 - MVNO接続立ち上げ（技術仕様策定、接続コスト策定）
-- +メッセージの立ち上げ（他社との協業推進）
+- 新規サービスの立ち上げ（携帯電話他社との協業推進）
 
 ---
 
