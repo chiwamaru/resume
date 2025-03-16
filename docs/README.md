@@ -2,12 +2,12 @@
 
 ## 基本情報
 
-| Key      | Value                           |
-|----------|---------------------------------|
-| 氏名     | 堀内晋也 (Horiuchi Shinya)      |
-| 生年月日 | 1976年7月30日                   |
-| note     | [note url](https://note.com/chiwamaru) |
-| Zenn     | [Zenn url](https://zenn.dev/chiwamaru) |
+| Key      | Value                                   |
+| -------- | --------------------------------------- |
+| 氏名     | 堀内晋也 (Horiuchi Shinya)              |
+| 生年月日 | 1976年7月30日                           |
+| note     | [note url](https://note.com/chiwamaru)     |
+| Zenn     | [Zenn url](https://zenn.dev/chiwamaru)     |
 | GitHub   | [GitHub url](https://github.com/chiwamaru) |
 
 ---
@@ -44,6 +44,7 @@
 - .bubble
 - GitHub Actions
 - SQL
+- Google Firebase
 
 ---
 
