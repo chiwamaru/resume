@@ -2,12 +2,12 @@
 
 ## 基本情報
 
-| Key      | Value                           |
-|----------|---------------------------------|
-| 氏名     | 堀内晋也 (Horiuchi Shinya)      |
-| 生年月日 | 1976 年 7 月 30 日                   |
-| note     | [note url](https://note.com/chiwamaru) |
-| Zenn     | [Zenn url](https://zenn.dev/chiwamaru) |
+| Key      | Value                                   |
+| -------- | --------------------------------------- |
+| 氏名     | 堀内晋也 (Horiuchi Shinya)              |
+| 生年月日 | 1976 年 7 月 30 日                      |
+| note     | [note url](https://note.com/chiwamaru)     |
+| Zenn     | [Zenn url](https://zenn.dev/chiwamaru)     |
 | GitHub   | [GitHub url](https://github.com/chiwamaru) |
 
 ---
@@ -33,6 +33,15 @@
 - TCP/IP
 - HTTP
 - MQTT
+
+#### サーバ構築・運用スキル（オンプレミス〜クラウド）
+
+- * [ ] 
+- BINDによるDNS構築・管理・障害対応
+- Solarisによる通信系サーバ（電話交換機集中サーバ）構築・運用
+- Windows Server（NT、2000など）を利用したネットワーク構築・ドメイン管理・運用
+- EC2、Compute Engine、Azure Virtual Machines等での文書サーバ・LLMサーバなどの構築・保守
+- HP-UX、MacOS等も含むマルチOS環境でのサーバ構築・障害対応経験
 
 #### その他
 
@@ -96,6 +105,7 @@
 - MVNO 事業立ち上げ支援（技術アドバイス、エンジニア採用支援）
 - オンプレミスから AWS/Azure/GCP/さくらクラウドへの移行支援
 - SaaS ツール導入・利用効率化コンサルティング
+- サーバ構築・運⽤：Linux（RedHat/CentOS/Ubuntu等）、Solaris、HP-UX、Windows Server、EC2、GCE、Azure VM など多種多様なOS・環境を構築・運用
 
 ---
 
