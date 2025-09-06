@@ -28,10 +28,10 @@
 結果として、**安全でムダの少ない運用**と、**誰が見ても分かる仕組み**を一緒につくります。
 
 **提供価値**
-1) 可視化：現状把握・課題の見える化（費用／負荷／権限／セキュリティ）
-2) 自動化：安全なリリースと定型作業の自動化
-3) コスト：無駄な常時起動や過剰リソースを削減
-4) 生成AI：RAG導入・ルール整備で安全に内製化
+- **可視化**：現状把握・課題の見える化（費用／負荷／権限／セキュリティ）
+- **自動化**：安全なリリースと定型作業の自動化
+- **コスト**：無駄な常時起動や過剰リソースを削減
+- **生成AI**：RAG導入・ルール整備で安全に内製化
 
 ---
 
@@ -40,9 +40,9 @@
 ### プロジェクトA：クラウド運用最適化＋生成AIの社内活用
 - **背景**：GCP費用が増加、権限や運用ルールが整理不足
 - **取り組み**
-  - 利用状況の可視化、Cloud Run/Cloud SQL/Cloud Storageの**適正サイズ化**
+  - 利用状況の可視化、Cloud Run/Cloud SQL/Cloud Storageの**適正利用化**
   - **バックアップ設計**（多リージョン・復元可能な削除の検討）
-  - **自動化**：Cloud Build → Pub/Sub → Workflows、**Cloud Runのトラフィック切替自動化**
+  - **自動化**：Cloud Build → Pub/Sub → Workflows、Cloud Runのトラフィック切替**自動化**
   - **月次コストのSlack通知**・ダッシュボード整備
   - **生成AI**：Azure OpenAIで**RAGの試作**、Difyで**問い合わせボット**作成・評価
 - **成果**：無停止での構成見直し、**運用手順と権限の標準化**、月次レポート定着。
@@ -66,10 +66,10 @@
 - **ルール整備とログ管理**で安全運用（誤回答・情報漏えい対策）
 
 **主な利用サービス**
-- モデル／API：**OpenAI API, Azure OpenAI（実務）**, AWS Bedrock / Google Gemini（検証）
-- ワークフロー／エージェント：**Dify（実装）**, **Kiro（要件整理・試作）**
-- AIエディタ：**Cursor, GitHub Copilot, Claude Code, OpenAI Codex**
-- 検索基盤：各サービスの**組み込みベクトル検索**を中心に利用
+- モデル／API：OpenAI API, Azure OpenAI（実務）, AWS Bedrock / Google Gemini（検証）
+- ワークフロー／エージェント：Dify（実装）, Kiro（要件整理・試作）
+- AIエディタ：Cursor, GitHub Copilot, Claude Code, OpenAI Codex
+- 検索基盤：各サービスの組み込みベクトル検索を中心に利用
 
 **個人開発**
 - Claude Code / Codex / Gemini / Cursor / Copilot を用いた**小規模アプリの試作**
@@ -78,19 +78,19 @@
 
 **エージェント・フレームワーク等**
 - Difyでの実装経験、**Kiroでの要件定義**・試作
-- LangChain / Autogen / ADK は**調査・比較レベルで利用**
+- LangChain は**調査・比較レベルで利用**
 
 ---
 
 ## スキル概要
-**クラウド**：AWS / Google Cloud / Azure（設計・運用・コスト最適化）
-**インフラ**：Linux, Windows Server, ネットワーク基礎, DNS（BIND）
-**IaC / コンテナ**：Terraform, Docker
-**監視**：CloudWatch, Cloud Monitoring, Azure Monitor, Datadog
-**データベース**：MariaDB/MySQL, Cloud SQL（調査・改善・運用）
-**CI/CD**：GitHub Actions, Cloud Build
-**言語**：Python / TypeScript / JavaScript
-**ドキュメント**：運用手順書、チェックリスト、評価用テンプレートの整備
+- **クラウド**：AWS / Google Cloud / Azure（設計・運用・コスト最適化）
+- **インフラ**：Linux, Windows Server, ネットワーク基礎, DNS（BIND）
+- **IaC / コンテナ**：Terraform, Docker
+- **監視**：CloudWatch, Cloud Monitoring, Azure Monitor, Datadog
+- **データベース**：MariaDB/MySQL, Cloud SQL, Cloud SQL, Bigquery, AWS DB全般
+- **CI/CD**：GitHub Actions, Cloud Build
+- **言語**：Python / TypeScript / JavaScript
+- **ドキュメント**：運用手順書、チェックリスト、評価用テンプレートの整備
 
 ---
 
