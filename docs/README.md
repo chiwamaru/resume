@@ -81,7 +81,7 @@
 - **ルール整備とログ管理**で安全運用（誤回答・情報漏えい対策）
 
 **主な利用サービス**
-- モデル／API：OpenAI API, Azure OpenAI（実務）, AWS Bedrock / Google Gemini（検証）
+- モデル／API：OpenAI API, Azure OpenAI, AWS Bedrock / Google Gemini（検証）
 - ワークフロー／エージェント：Dify（実装）, Kiro（要件整理・試作）
 - AIエディタ：Cursor, GitHub Copilot, Claude Code, OpenAI Codex
 - 検索基盤：各サービスの組み込みベクトル検索を中心に利用
@@ -89,30 +89,35 @@
 **個人開発**
 - Claude Code / Codex / Gemini / Cursor / Copilot を用いた**小規模アプリの試作**
   - 例：社内問い合わせボット、文書要約、定型業務の半自動化デモ
-  - 目的：**短期間で“見えるもの”を作り、判断を早める**
+  - 目的：短期間で“見えるもの”を作り、判断を早める
 
 **エージェント・フレームワーク等**
-- Difyでの実装経験、**Kiroでの要件定義**・試作
-- LangChain は**調査・比較レベルで利用**
+- Difyでの実装経験、Kiroでの要件定義・試作
+- LangChain は調査・比較レベルで利用
 
 ---
 
 ## スキル概要
 - **クラウド**：AWS / Google Cloud / Azure（設計・運用・コスト最適化）
+- **生成AI／LLM**：
+  - **できること**：RAG（社内文書から根拠付きで回答する仕組み）、プロンプト設計、運用・コスト最適化（入力要約／モデル使い分け／再利用）
+  - **利用サービス**：OpenAI API, Azure OpenAI, Google Gemini, AWS Bedrock, Claude
+  - **ツール**：Dify（ワークフロー構築）、Kiro（要件整理・試作）、Cursor／GitHub Copilot／Claude Code／OpenAI Codex（開発支援）
+  - **検索基盤**：各サービスの組み込みベクトル検索を主利用
+- **セキュリティ／ガバナンス**：最小権限（IAM）の徹底、鍵・トークン管理、監査ログ整備、データ配置は国内（東京）リージョンを基本、バックアップ／復元手順の明確化
 - **インフラ**：Linux, Windows Server, ネットワーク基礎, DNS（BIND）
-- **IaC / コンテナ**：Terraform, Docker
+- **IaC／コンテナ**：Terraform, Docker
 - **監視**：CloudWatch, Cloud Monitoring, Azure Monitor, Datadog
-- **データベース**：MariaDB/MySQL, Cloud SQL, Cloud SQL, Bigquery, AWS DB全般
+- **データベース**：MariaDB / MySQL, Cloud SQL, BigQuery, AWSのマネージドDB（RDS/Aurora 等）
 - **CI/CD**：GitHub Actions, Cloud Build
 - **言語**：Python / TypeScript / JavaScript
 - **ドキュメント**：運用手順書、チェックリスト、評価用テンプレートの整備
-
 ---
 
 ## 職歴（要約）
 - **フリーランス（2024/11〜現在）**：クラウド／SRE／生成AI実装支援
   - 副業での企業様ご支援は2018〜より実施
-- **KDDIウェブコミュニケーションズ（2023/10〜2024/11）**：クラウド運用、**AI活用の推進**、社内ツール統合
+- **KDDIウェブコミュニケーションズ（2023/10〜2024/11）**：組織マネジメント、予算管理、人材育成、クラウド運用、AI活用の推進、社内ツール統合
 - **Luup（2022/01〜2023/07）**：IoT通信・SRE、IaC、コスト管理、技術発信（Blog立ち上げ）
 - **ビッグローブ（2018/12〜2022/01）**：オンプレ→AWS移行、SaaS最適化、産学連携PJ
 - **ソフトバンク（2001/04〜2018/10）**：携帯ネットワークエンジニア／商品企画、MVNO立ち上げ
@@ -120,7 +125,7 @@
 ---
 
 ## 資格
-- **AWS 認定ソリューションアーキテクト – アソシエイト**
+- AWS 認定ソリューションアーキテクト – アソシエイト
 
 ---
 
