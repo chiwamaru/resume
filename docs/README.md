@@ -114,6 +114,7 @@
 - **CI/CD**：GitHub Actions, Cloud Build
 - **言語**：Python / TypeScript / JavaScript
 - **ドキュメント**：運用手順書、チェックリスト、評価用テンプレートの整備
+
 ---
 
 ## 職歴（要約）
