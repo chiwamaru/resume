@@ -14,14 +14,13 @@
 
 **得意分野：クラウド構築／クラウド運用改善（SRE）／生成AIの業務実装（RAG・運用・コスト最適化）**
 
-## プロフィール
 クラウド（AWS／GCP／Azure）の設計・構築・運用と、生成AIの業務実装（RAGなど）が得意です。
 「小さく作って確かめる → 運用に乗せる → コストとルールを整える」を素早く回し、現場で使える形に仕上げます。
 
 その過程で **“見落としがちなリスク” を先回りして是正** します。たとえば
 - **権限が広すぎる**／誰でも触れてしまう（→ **最小権限**へ整理、付与・剥奪の手順を整備）
 - **文書やデータの置き場所が適切でない**（→ **国内リージョン［例：東京］へ配置**、バックアップと復元手順を確認）
-- **共有範囲が社外まで広がっている**（→ 閲覧権限・公開範囲を適正化、閲覧ログを残す）
+- **共有範囲が関係部署外まで広がっている**（→ 閲覧権限・公開範囲を適正化、閲覧ログを残す）
 - **鍵・トークン管理が属人化**（→ 保管場所と更新ルールを明確化）
 
 非エンジニアの方にも伝わる **平易なドキュメント／手順書** を用意し、社内の合意形成まで伴走します。
@@ -82,13 +81,13 @@
 - **ルール整備とログ管理**で安全運用（誤回答・情報漏えい対策）
 
 **主な利用サービス**
-- モデル／API：OpenAI API, Azure OpenAI, AWS Bedrock / Google Gemini（検証）
+- モデル／API：OpenAI API, Azure OpenAI, AWS Bedrock, Google Gemini
 - ベクトルDB：Cohere
 - ワークフロー／エージェント：Dify（実装）, Kiro（要件整理・試作）
 - AIエディタ：Cursor, GitHub Copilot, Claude Code, OpenAI Codex
 - 検索基盤：各サービスの組み込みベクトル検索を中心に利用
 
-**個人開発**
+## 個人開発
 - Claude Code / Codex / Gemini / Cursor / Copilot を用いた**小規模アプリの試作**
   - 例：社内問い合わせボット、文書要約、定型業務の半自動化デモ
   - 目的：短期間で“見えるもの”を作り、判断を早める
@@ -97,20 +96,23 @@
 - Difyでの実装経験、Kiroでの要件定義・試作
 - LangChain は調査・比較レベルで利用
 
+**その他**
+- Vercel, supabase利用のシンプルな環境
+
 ---
 
 ## スキル概要
-- **クラウド**：AWS / Google Cloud / Azure（設計・運用・コスト最適化）
+- **クラウド**：AWS / Google Cloud / Azure（設計・構築・運用・コスト最適化）
 - **生成AI／LLM**：
   - **できること**：RAG（社内文書から根拠付きで回答する仕組み）、プロンプト設計、運用・コスト最適化（入力要約／モデル使い分け／再利用）
   - **利用サービス**：OpenAI API, Azure OpenAI, Google Gemini, AWS Bedrock, Claude
   - **ツール**：Dify（ワークフロー構築）、Kiro（要件整理・試作）、Cursor／GitHub Copilot／Claude Code／OpenAI Codex（開発支援）
-  - **検索基盤**：各サービスの組み込みベクトル検索を主利用
+  - **検索基盤**：各サービスの組み込みベクトル検索を主利用, Cohere等
 - **セキュリティ／ガバナンス**：最小権限（IAM）の徹底、鍵・トークン管理、監査ログ整備、データ配置は国内（東京）リージョンを基本、バックアップ／復元手順の明確化
 - **インフラ**：Linux, Windows Server, ネットワーク基礎, DNS（BIND）
 - **IaC／コンテナ**：Terraform, Docker
-- **監視**：CloudWatch, Cloud Monitoring, Azure Monitor, Datadog
-- **データベース**：MariaDB / MySQL, Cloud SQL, BigQuery, AWSのマネージドDB（RDS/Aurora 等）
+- **監視**：CloudWatch, Cloud Monitoring, Azure Monitor, Datadog, New Relic等
+- **データベース**：MariaDB, MySQL, Cloud SQL, BigQuery, AWSのマネージドDB（RDS/Aurora 等）
 - **CI/CD**：GitHub Actions, Cloud Build
 - **言語**：Python / TypeScript / JavaScript
 - **ドキュメント**：運用手順書、チェックリスト、評価用テンプレートの整備
