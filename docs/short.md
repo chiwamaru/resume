@@ -45,7 +45,7 @@ title: 職務経歴書・スキルシート（概要版）
 
 **【対応可能 / 実務経験あり】**
 
-- **AWS 設計・構築・運用改善：** BIGLOBEでのCCoE活動・約200サービスのAWS移行支援・設計レビュー・ガイドライン整備を経験
+- **AWS 設計・構築・運用改善：** Luupでの実務構築・開発（S3, Lambda, Kinesis, CloudWatch, SNS等）、BIGLOBEでのCCoE活動・約200サービスのAWS移行支援・設計レビュー・ガイドライン整備を経験
 - **IAM / セキュリティ整備：** 権限棚卸し・最小権限化・付与削除フロー整備（GCP・AWS・Azure対応）
 - **DB負荷対策：** MariaDB / Cloud SQL / RDS を対象に、スロークエリ調査、インデックス整理、接続数・負荷調査、レプリカ / フェイルオーバー方針検討
 - **情シス・ガバナンス：** SaaS棚卸し、アカウント管理、ベンダー折衝、少人数情シス部門の運用改善
@@ -63,8 +63,8 @@ title: 職務経歴書・スキルシート（概要版）
 
 | 分野 | 主な経験・技術 | 経験の深度 |
 | --- | --- | --- |
-| GCP | Cloud Run, Cloud SQL, Cloud Storage, Cloud Build, Pub/Sub, Workflows, BigQuery, Artifact Registry, Secret Manager, Cloud Scheduler, Firebase, IAM, Cloud Monitoring | 直近案件での運用改善、調査、設定見直し、監視・コスト整備を主導 |
-| AWS | EC2, S3, IAM, VPC, Route 53, Lambda, Bedrock, RDS, CloudWatch, CloudFormation, AWS Organizations, Cost Explorer, AWS Budgets, WAF, ELB / ALB | CCoE / AWS移行支援 / 設計レビュー / 社内相談対応を経験 |
+| GCP | Cloud Run, Cloud SQL, Cloud Storage, Cloud Build, Pub/Sub, Workflows, BigQuery, Artifact Registry, Secret Manager, Cloud Scheduler, Firebase, IAM, Cloud Monitoring | Luupでの新規リソース構築・開発・運用を経験。直近案件で設定見直し・監視・コスト整備・運用改善を主導 |
+| AWS | EC2, S3, IAM, VPC, Route 53, Lambda, Bedrock, RDS, CloudWatch, CloudFormation, AWS Organizations, Cost Explorer, AWS Budgets, WAF, ELB / ALB | Luupでの実務構築・開発（S3, Lambda, Kinesis等）、BIGLOBEでのCCoE / AWS移行支援 / 設計レビューを経験 |
 | Azure / Microsoft | Azure OpenAI, Entra ID, Azure VM, Microsoft 365, Teams | 社内IT、ID管理、生成AI活用、問い合わせボット導入で利用 |
 | SRE / 運用 | Cloud Monitoring, CloudWatch, Datadog, Terraform, 監視設計, アラート設計, バックアップ設計, 障害対応, 運用手順書作成, リリース自動化, SLI / SLO | 監視・アラート、オンコール、バックアップ、障害対応手順、運用改善で利用 |
 | DB | MariaDB, Cloud SQL, RDS, スロークエリ調査, インデックス整理, レプリカ構成検討, フェイルオーバー検討 | DB負荷対策、ログ確認、接続数調査、構成比較、運用手順整備を経験 |
