@@ -8,6 +8,17 @@ title: 職務経歴書・スキルシート
 
 ---
 
+<div style="display:flex; align-items:center; gap:1.5rem; margin-bottom:1.5rem;">
+  <img src="./resume.png" alt="プロフィール" style="width:150px; border-radius:8px; flex-shrink:0;">
+  <div>
+    <p>インフラエンジニア／情シスのフリーランスとして活動しています。</p>
+    <p>チワワの <strong>ちわ丸</strong> と暮らしており、毎日癒されています。趣味は <strong>珈琲焙煎</strong> で、豆の産地・焙煎度・抽出方法をあれこれ試行錯誤しながら楽しんでいます。</p>
+    <p>少しでも会話のきっかけになれば嬉しいです。よろしくお願いします！</p>
+  </div>
+</div>
+
+---
+
 ## 目次
 
 - [1. 職務要約](#1-職務要約)
