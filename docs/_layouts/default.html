@@ -9,6 +9,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <title>{{ page.title | default: site.title }}</title>
+    <style>
+      .profile-portrait { width: 150px; max-width: 100%; height: auto; border-radius: 8px; flex-shrink: 0; }
+      .profile-intro { display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1.5rem; }
+      .profile-intro > div { min-width: 0; }
+      @media (max-width: 600px) { .profile-intro { flex-direction: column; align-items: flex-start; gap: .75rem; } }
+    </style>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
