@@ -4,6 +4,8 @@ title: 職務経歴書・スキルシート（概要版）
 
 # 職務経歴書・スキルシート（概要版）
 
+[詳細版はこちら](./detail)
+
 <img src="./resume.png" alt="本人と愛犬ちわ丸の似顔絵" class="profile-portrait">
 
 **AWS / GCP の既存環境改善を、設計から実装まで担う SRE エンジニア**
